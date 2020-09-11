@@ -11,7 +11,7 @@ from email.mime.text import MIMEText
 from email.header import Header
 counter = 1
 sender = 'service@sync.cloudbox.hinet.net'
-subject = 'hicloud box(e)功能發佈'
+subject = 'hicloud box(e)系統公告'
 fromname = 'hicloud box(e)'
 
 logging.basicConfig(filename='logger.log', level=logging.INFO)
