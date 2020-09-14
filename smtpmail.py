@@ -43,6 +43,6 @@ with open(MAILLIST, 'r', encoding='utf8')as csvfile:
             logging.info("Mail sent to %d: %s"% (counter, receiver))
         except smtplib.SMTPException:
             #print("Error: 無法發送郵件")
-            logging.error("Error: cannot sent to %d: %s"% (counter,reveiver))
+            logging.error("Error: cannot sent to %d: %s"% (counter,receiver))
         counter += 1
         time.sleep(8)
